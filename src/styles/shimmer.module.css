@@ -1,0 +1,40 @@
+.searchdiv{
+    margin: 30px 0 20px 52px;
+    border-radius: 4px;
+    width: 251.6px;
+    height: 38.4px;
+    background-color: rgb(216, 215, 215);
+}
+.cards_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.card{
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    border-radius: 8px;
+    padding-bottom: 24px;
+    background-color: rgb(216, 215, 215);
+}
+.flagdiv{
+    height: 150px;
+    width: 250px;
+    background-color: rgb(173, 171, 171);
+}
+.name{
+    margin: 10px 0 0 0;
+    height: 40px;
+    width: 180px;
+    background-color: rgb(173, 171, 171);
+}
+.texting{
+    margin: 20px 0 0 0;
+    height: 20px;
+    width: 230px;
+    background-color: rgb(173, 171, 171);
+}

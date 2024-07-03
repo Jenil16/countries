@@ -1,0 +1,39 @@
+.parentsearchdiv{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+.parentsearchdiv.active{
+    background-color: rgb(31, 44, 54);
+}
+.searchbar{
+    /* margin: 20px 0 20px 52px; */
+    padding: 10px;
+    border: none;
+}
+.searchbar:focus{
+    outline: none;
+}
+.searchbar.active{
+    background-color: rgb(31, 44, 54);
+    color: white;
+}
+.searchdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0px 0 0px 52px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    width: 250px;
+    height: auto;
+}
+.searchicon{
+    height: 20px;
+    width: 20px;
+    
+    
+}

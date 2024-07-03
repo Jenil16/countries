@@ -1,0 +1,33 @@
+.card{
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding-bottom: 24px;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    background-color: var(--elements-color);
+    transition: 0.3s;
+}
+.card.active{
+    background-color: rgb(42, 57, 69);
+    color: white;
+}
+.card:hover{
+    box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.countrycardanchor{
+    text-decoration: none;
+    color: black;
+}
+
+#flagimg{
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+}

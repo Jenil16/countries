@@ -1,0 +1,68 @@
+.countrydiv{
+    
+}
+.countrydiv.active{
+    background-color: rgb(31, 44, 54);
+    height: calc(100vh - 85px);
+    color: white;
+}
+
+#countryname{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+#flagimg{
+    height: 350px;
+    width: 550px;
+    margin-left: 50px;
+    margin-top: -17px;
+}
+.countrycontent{
+    display: flex;
+    gap: 100px;
+    margin: 5px 0 0 50px;
+    font-size: 20px;
+}
+.backdiv{
+    /* margin-top: 20px; */
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    border: 1px solid #757575;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.backdiv.active{
+    background-color: rgb(31, 44, 54);
+    color: white;
+    
+}
+.parentbackdiv{
+    padding-top: 20px;
+}
+.backbtn{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 22px;
+    color: #383838;
+    cursor: pointer;
+}
+.backbtn.active{
+    background-color: rgb(31, 44, 54);
+    color: white;
+}
+.backimg{   
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    color: white;
+}

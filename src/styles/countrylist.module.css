@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container.active{
+    background-color: rgb(31, 44, 54);
+    height: 100%;
+}
